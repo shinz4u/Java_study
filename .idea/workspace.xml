@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6736c4e0-2143-477d-b7a4-6db1969fc3eb" name="Default" comment="Adding ArrayLeftRotation and Recursion Classes. &#10;">
+    <list default="true" id="6736c4e0-2143-477d-b7a4-6db1969fc3eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaStudy_test_console.iws" />
@@ -825,7 +825,7 @@
       <workItem from="1474226479036" duration="1616000" />
       <workItem from="1474513738686" duration="789000" />
       <workItem from="1474565949491" duration="43189000" />
-      <workItem from="1475038216561" duration="2040000" />
+      <workItem from="1475038216561" duration="2077000" />
     </task>
     <task id="LOCAL-00001" summary="Adding ArrayLeftRotation and Recursion Classes. &#10;">
       <created>1475040628119</created>
@@ -834,11 +834,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475040628119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding ArrayLeftRotation and Recursion Classes. &#10;">
+      <created>1475040722985</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475040722985</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47634000" />
+    <option name="totallyTimeSpent" value="47671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
