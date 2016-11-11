@@ -3,7 +3,7 @@ package com.company;
 /**
  * Created by mohammedshinoy on 2016-09-28.
  */
-public class ArrayLeftRotation {
+public class ArrayLeftRotation { // Gayle Laakmann Interview Question on HakerRank.
 
 
     public static int[] arrayLeftRotation(int[] a, int n, int k) {

@@ -58,6 +58,7 @@ public class Solution {
 
                 if ( (s.charAt(i) == ')') || (s.charAt(i) == '}') || (s.charAt(i) == ']') ){
                     push(String.valueOf(s.charAt(i)));
+                    throw new EmptyStackException();
 
 
                 }

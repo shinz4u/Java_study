@@ -1,57 +1,50 @@
 package com.company;
 
-import java.util.EmptyStackException;
-import java.util.StringJoiner;
-
 /**
  * Created by mohammedshinoy on 2016-09-22.
  */
-public class Stack {
+public class StackImpl {
 
     private Integer[] stack;
     private int size = 10;
     private int top;
 
-    public Stack(){
+    public StackImpl(){
         stack = new Integer[size];
         top = -1;
     }
 
     public void push(Integer object) throws FullStackException{
         if(!isfull()){
-            if (isEmpty()){
-                top = top + 1;
-            }
+            top++;
             stack[top] = object;
-            top = top + 1;
-
         }else {
-            String e = "Stack is full";
+            String e = "StackImpl is full";
             throw new FullStackException(e);
         }
     }
 
     public Integer pop() throws EmptyStackException {
         if (!isEmpty()) {
-            Integer temp = stack[top - 1];
-            stack[top-1] = null;
-            top = top - 1;
+            Integer temp = stack[top];
+            stack[top] = null;
+            top--;
             return temp;
-
         }
-        String e = "Stack is Empty";
+        String e = "StackImpl is Empty";
         throw new EmptyStackException(e);
     }
 
     public Integer seek() throws  EmptyStackException{
         if (isEmpty()){
-            String e = " Stack is Empty No Elements to seek";
+            String e = " StackImpl is Empty No Elements to seek";
             throw new EmptyStackException(e);
         }
-        return stack[top-1];
+        return stack[top];
     }
 
     public boolean isfull(){
+
         if (top == size){
             return true;
         }
@@ -92,7 +85,7 @@ public class Stack {
     }
 
     public static void main(String[] args) throws FullStackException,EmptyStackException {
-        Stack stacktest = new Stack();
+        StackImpl stacktest = new StackImpl();
 
         stacktest.push(1);
         System.out.println(stacktest.pop());
@@ -118,11 +111,10 @@ public class Stack {
         stacktest.push(13);
         stacktest.push(14);
         System.out.println(stacktest.seek());
-        stacktest.push(4);
-        stacktest.push(5);
-        stacktest.push(6);
-        stacktest.push(7);
-
+        System.out.println(stacktest.pop());
+        System.out.println(stacktest.pop());
+        System.out.println(stacktest.pop());
+        System.out.println(stacktest.pop());
 
 
         }
