@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6736c4e0-2143-477d-b7a4-6db1969fc3eb" name="Default" comment="Adding ArrayLeftRotation and Recursion Classes. &#10;Adding A tale of Two Stacks and Brackets">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/ATaleOfTwoStacks.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/Brackets.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaStudy_test_console/com/company/Stack$EmptyStackException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaStudy_test_console/com/company/Stack$FullStackException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JavaStudy_test_console/com/company/Stack.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/company/Stack.java" afterPath="$PROJECT_DIR$/src/com/company/StackImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaStudy_test_console/com/company/Solution.class" afterPath="$PROJECT_DIR$/out/production/JavaStudy_test_console/com/company/Solution.class" />
+    <list default="true" id="6736c4e0-2143-477d-b7a4-6db1969fc3eb" name="Default" comment="DesignerPDFViewer Commiting">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/DesignerPDFViewer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/ArrayLeftRotation.java" afterPath="$PROJECT_DIR$/src/com/company/ArrayLeftRotation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Solution.java" afterPath="$PROJECT_DIR$/src/com/company/Solution.java" />
     </list>
     <ignored path="JavaStudy_test_console.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/MyMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ArrayLeftRotation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ArrayLeftRotation.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,12 +35,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StackImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/StackImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+            <state relative-caret-position="780">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DesignerPDFViewer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/DesignerPDFViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,9 +60,13 @@
       <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
+            <state relative-caret-position="810">
               <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#644#645#0" expanded="false" />
+                <element signature="e#678#679#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,9 +76,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,7 +84,7 @@
       <file leaf-file-name="ATaleOfTwoStacks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ATaleOfTwoStacks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="735">
               <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
               <folding />
             </state>
@@ -181,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/com/company/Stack.java" />
         <option value="$PROJECT_DIR$/src/com/company/ATaleOfTwoStacks.java" />
         <option value="$PROJECT_DIR$/src/com/company/StackImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/company/DesignerPDFViewer.java" />
       </list>
     </option>
   </component>
@@ -219,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -280,8 +276,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +294,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Taleofstacks">
+  <component name="RunManager" selected="Application.DesignerPDF">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -828,6 +825,21 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="DesignerPDF" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.company.DesignerPDFViewer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaStudy_test_console" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="App" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.App" />
@@ -843,7 +855,7 @@
       <envs />
       <method />
     </configuration>
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Application.Brackets" />
       <item index="1" class="java.lang.String" itemvalue="Application.MyMain" />
       <item index="2" class="java.lang.String" itemvalue="Application.ArrayRotation" />
@@ -851,7 +863,8 @@
       <item index="4" class="java.lang.String" itemvalue="Application.Stack" />
       <item index="5" class="java.lang.String" itemvalue="Application.Brackets1" />
       <item index="6" class="java.lang.String" itemvalue="Application.Taleofstacks" />
-      <item index="7" class="java.lang.String" itemvalue="Application.App" />
+      <item index="7" class="java.lang.String" itemvalue="Application.DesignerPDF" />
+      <item index="8" class="java.lang.String" itemvalue="Application.App" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -874,7 +887,8 @@
       <workItem from="1475384921665" duration="328000" />
       <workItem from="1477451303287" duration="3876000" />
       <workItem from="1478403961417" duration="3063000" />
-      <workItem from="1478833566604" duration="302000" />
+      <workItem from="1478833566604" duration="456000" />
+      <workItem from="1480023880590" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="Adding ArrayLeftRotation and Recursion Classes. &#10;">
       <created>1475040628119</created>
@@ -904,11 +918,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475041061306</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding ArrayLeftRotation and Recursion Classes. &#10;Adding A tale of Two Stacks and Brackets">
+      <created>1478833878089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1478833878089</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55852000" />
+    <option name="totallyTimeSpent" value="57407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -956,7 +977,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding ArrayLeftRotation and Recursion Classes. &#10;" />
     <MESSAGE value="Adding ArrayLeftRotation and Recursion Classes. &#10;Adding A tale of Two Stacks and Brackets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding ArrayLeftRotation and Recursion Classes. &#10;Adding A tale of Two Stacks and Brackets" />
+    <MESSAGE value="DesignerPDFViewer Commiting" />
+    <option name="LAST_COMMIT_MESSAGE" value="DesignerPDFViewer Commiting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -988,14 +1010,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/StackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="103" column="19" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1080,7 +1094,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1160,7 +1178,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="89" column="45" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1323,9 +1345,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,15 +1359,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
+        <state relative-caret-position="810">
           <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#644#645#0" expanded="false" />
+            <element signature="e#678#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ATaleOfTwoStacks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="735">
           <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
           <folding />
         </state>
@@ -1355,9 +1379,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/StackImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        <state relative-caret-position="780">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/DesignerPDFViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
