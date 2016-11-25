@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6736c4e0-2143-477d-b7a4-6db1969fc3eb" name="Default" comment="DesignerPDFViewer Commiting">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/company/DesignerPDFViewer.java" />
+    <list default="true" id="6736c4e0-2143-477d-b7a4-6db1969fc3eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaStudy_test_console.iws" />
@@ -888,7 +887,7 @@
       <workItem from="1477451303287" duration="3876000" />
       <workItem from="1478403961417" duration="3063000" />
       <workItem from="1478833566604" duration="456000" />
-      <workItem from="1480023880590" duration="1401000" />
+      <workItem from="1480023880590" duration="1415000" />
     </task>
     <task id="LOCAL-00001" summary="Adding ArrayLeftRotation and Recursion Classes. &#10;">
       <created>1475040628119</created>
@@ -925,11 +924,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478833878089</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DesignerPDFViewer Commiting">
+      <created>1480096582196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480096582196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57407000" />
+    <option name="totallyTimeSpent" value="57421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
